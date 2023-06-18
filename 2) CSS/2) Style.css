@@ -1,0 +1,111 @@
+/* Universal Selector */
+* {
+    font-family: 'Courier New';
+}
+
+/* Element Selector */
+h1,h3{
+    color: #b92b27;
+}
+
+/* ID Selector */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendent Selector */
+/* all anchor tag inside post class gets color purple */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li{
+    color: aquamarine;
+}
+
+/* Adj Sibling Combinator */
+/* Head3 that comes just after p tag */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* Child Combinator */
+div > input {
+    background-color: darkgray;
+}
+
+/* Attribute Selector*/
+/* Selects elements based on presence or value of a given attribute */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Pseudo Class */
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+button:active{
+    color: black;
+    background-color: pink;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* .post:nth-of-type(2){
+    background-color: aqua;
+} */
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* PSEUDO ELEMENTS */
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color: red;
+} 
+
+p::selection{
+    background-color: yellow;
+}
+
+
+/* Selector Specificity */
+/* (!important) > Inline > ID > Class/ attribute/ psudo class > Element/ Pseudo Element */
+/* If specificity is same then --> cascading */
+
+

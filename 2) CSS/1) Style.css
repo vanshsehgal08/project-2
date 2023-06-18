@@ -1,0 +1,53 @@
+/* STYLE TAG */
+/* text-align ||font-weight ||text-decoration ||line-height ||letter-spacing ||font-size */
+/* cssfontstack.com */
+
+h1{
+    color: black;
+    /* RGB RANGE 0 TO 255 */
+    background-color: rgb(200, 0, 255); 
+    /* Heading will be at the center wrt parent element */
+    text-align: center;
+    /* border: solid;
+    width: 50%; */
+
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: impact, arial;
+}
+
+h2{
+    font-weight: 500;
+    text-decoration: wavy red  underline;
+    /* text-decoration-color: red; */
+}
+
+h3{
+    color: blueviolet;
+}
+
+p{
+    /* HEX CODE */
+    /* Letters: 1,2,3,4,5,6,7,8,9,A,B,C,D,E,F */
+    /* RGB 255 == HEX ff */
+    color: #24180c;
+    line-height: 2.5;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+button{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+/* UNITS IN CSS 
+    ABSOLUTE   px  pt  pc  cm  mm  in
+    RELATIVE   %   em  rem ch  vh  vw
+
+    1 inch = 96px (not suitable for responsive websites
+*/
