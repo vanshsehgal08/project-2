@@ -1,0 +1,76 @@
+/* flex-direction, justify-content, flex-wrap, align-items, align-content
+flex sizing---> flex-grow, flex-shrink, flex-basis */
+
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+    /* DIRECTION */
+    flex-direction:row;
+    /* row,row-reverse,column,column-reverse */
+
+    /* JUSTIFY */
+    /* /sets space around main axis */
+    /* Tells how browser distributes space bw and around content items along main axis */
+    justify-content: flex-start;
+    /* start,end center */
+    /* space-between, space-around, space-evenly */
+    
+    /* WRAP */
+    flex-wrap: wrap;
+    /* wrap wrap-reverse---> reverse about cross axis */
+
+
+    /* ALIGN */
+    align-items: center;
+    /* distributes elements along cross axis */
+    /* baseline: sets text in one line  */
+
+
+    /* ALIGN CONTENT */
+    /* sets space along cross axis */
+    align-content: flex-start;
+
+    /* ALIGN SELF */
+    /* aligns an item along cross axis */
+    /* same like align but align self is for individual and align is for grp */
+
+
+    /* FLEX SIZING */
+    /* it sets the initial main size of a flex item */
+    flex-basis: 100px;
+
+    /* it specifies how much flex container remaining space should be assigned to flex item main size */
+    flex-grow: 2;
+
+    /* it sets the flex shrink factor of a flex item */
+    flex-shrink: 1;
+
+    /* FLEX SHORTHAND */
+
+    /* 
+    flex-grow | flex-shrink | flex-basis
+    flex-grow | flex-basis
+    flex-grow (unitless)
+    flex basis (unit) */
+
+
+}
+
+h2{
+    text-align: center;
+}
+
+#container div{
+    /* height: 20px; */
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+}

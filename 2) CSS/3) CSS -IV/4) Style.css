@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("4) BGImage.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    
+}

@@ -1,0 +1,48 @@
+/* Transform: rotate,scale,skew,translate */
+
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 10px auto;
+    /* SHADOW */
+    BOX-shadow: 2px 2px 8px red;
+}
+
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+div:nth-of-type(3n){
+    background-color: cyan;
+}
+
+/* transform */
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.5);
+    /* transform: scale(0.5,2); */
+    /* transform: scaleX(2); */
+}
+
+#three{
+    /* transform: translate(50px,50px); */
+    transform: translate(-200px);
+}
+
+#four{
+    transform: skew(45deg);
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+

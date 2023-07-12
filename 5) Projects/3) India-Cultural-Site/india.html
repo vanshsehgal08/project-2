@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Culturally Yours</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0">
+        <link rel="stylesheet" href="1) Style.css">
+        <link rel="stylesheet" href="./india/map.css">
+    </head>
+    <body>
+
+        <!-- Setting the background image -->
+        <style>
+            body {
+                background-image: url('./assets/bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+
+        <!-- Creating a NAVBAR -->
+        <header>
+            <nav class="navbar navbar-expand-lg" fixed-top>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://www.google.com/">
+                        <img src="./assets/logo2.png" class="logo">
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Attaching the map of india  -->
+        <div class="main-content">
+            <div style="margin-left: 1rem;">
+                <h5 style="text-align: center;">Celebrate India's 77th Independence Day and Dive into its Rich Culture and Tradition!</h5>
+                <p>
+                    Today, on the 77th anniversary of India's Independence, we celebrate the sacrifices made by our freedom fighters and the progress that our country has made over the years. We are a nation of diverse cultures and traditions, and we are proud of our rich heritage.
+                    This website is dedicated to exploring the culture and tradition of India. We hope that you will enjoy learning about our country's unique history, customs, and art forms.
+On this Independence Day, let us pledge to uphold the values of freedom, equality, and justice. Let us work together to build a better future for our country.
+                </p>
+
+            </div>
+            <div id="map-container"></div>
+            <script src="./india/raphael.min.js"></script>
+            <script src="./india/settings.js"></script>
+            <script src="./india/paths.js"></script>
+            <script src="./india/map.js" class="map"></script>
+            <script>
+                var map = new FlaMap(map_cfg);
+                map.drawOnDomReady('map-container');
+            </script>
+            <div style="margin-left: 1rem;">
+                <h5>Celebrate India's 77th Independence Day and Dive into its Rich Culture and Tradition!</h5>
+            </div>
+            
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

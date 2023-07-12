@@ -1,0 +1,34 @@
+/* CSS Transitions
+Enable you to define the transition bw two states
+of an element */
+
+/* #transition{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+} */
+
+/* #transition:hover{
+    background-color: black; */
+    /* transition-duration: 2s; */
+    /* border-radius: 50%; */
+
+    /*Transition Shorthand
+    propname|duration|time func|delay  */
+    /* transition: margin-top 5s ease-in-out 3s;
+} */
+
+#transition{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+#transition:hover{
+    margin-top: 400px;
+    background-color: pink;
+
+}

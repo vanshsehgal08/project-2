@@ -1,0 +1,37 @@
+h1{
+    border: 2px solid black;
+    width: 33.33%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+    font-size: 20px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-left: 10%;
+    font-size: 0.5em;
+    padding: 1em;
+    /* padding is wrt inner fontsize */
+}
+
+/* "em" unit is a relative unit of measurement that represents the computed 
+font size of an element. It is based on the font size of the parent element 
+or, if used on the root element, the default font size of the browser. */
+
+button{
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* DRAWBACKS OF em: Snowball effect in nested elements */
+/* SOLUTION: rem: relative to font size of root element */

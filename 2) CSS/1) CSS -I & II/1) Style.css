@@ -1,9 +1,10 @@
 /* STYLE TAG */
-/* text-align ||font-weight ||text-decoration ||line-height ||letter-spacing ||font-size */
+/* text-align ||text-decoration ||font-weight ||font-size ||font-family || line-height ||letter-spacing  */
+/* color || background-color */
 /* cssfontstack.com */
 
 h1{
-    color: black;
+    color: blue;
     /* RGB RANGE 0 TO 255 */
     background-color: rgb(200, 0, 255); 
     /* Heading will be at the center wrt parent element */

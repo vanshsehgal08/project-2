@@ -1,0 +1,24 @@
+/* Alpha Channel
+Sets Opacity for a colgroup
+Ranges 0 to 1 */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* OPACITY
+sets opacity for an element
+Ranges 0 to 1 */
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.3;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+

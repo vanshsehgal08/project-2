@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+
+            <!-- NAVBAR -->
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <!-- LIBRARY -->
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <!-- CREATE PLAYLIST -->
+                <div class="lib-box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+
+                <!-- FOLLOW PODCASTS -->
+                <div class="lib-box">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <a href="https://open.spotify.com/search/podcasts/podcasts">
+                    <button class="badge">Browse podcasts</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            
+            <h2 style="cursor: pointer;">Recently played</h2>
+            <div class="cards-container">
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                </a>
+            </div>
+
+            <h2 style="cursor: pointer;">Trending now near you</h2>
+            <div class="cards-container">
+                <a href="https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq">
+                <div class="card">
+                    <img src="	https://i.scdn.co/image/7e8705b785cbd193e2edbf60096ae739df469ce1" class="card-img">
+                    <p class="card-title">One direction</p>
+                    <p class="card-info">Dance all night to the best songs ever</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/artist/1rpoUNG0STk0Vw4BNVaP17">
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Silent Ocean</p>
+                    <p class="card-info">Make your mood with lofi music</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/album/2cWBwpqMsDJC1ZUwz813lo">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e026ca5c90113b30c3c43ffb8f4" class="card-img">
+                    <p class="card-title">The Eminem Show</p>
+                    <p class="card-info">This is Eminem. The essential tracks, all in one playlist.</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DWXjoRs40XkRL">
+                <div class="card">
+                    <img src="	https://i.scdn.co/image/ab67706f00000002c27f288b25cafe9288dd0e2e" class="card-img">
+                    <p class="card-title">Raga Lounge</p>
+                    <p class="card-info">Unwind to the best Indian classical sounds out there</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V">
+                <div class="card">
+                    <img src="	https://i.scdn.co/image/ab67706c0000da84f3a6e8d59ecac5fb5fc5024c" class="card-img">
+                    <p class="card-title">Ed Sheeran</p>
+                    <p class="card-info">Struggling with your mental health? Then listen this 😀</p>
+                </div>
+                </a>
+
+            </div>
+        
+            <h2 style="cursor: pointer;">Featured Charts</h2>
+            <div class="cards-container">
+
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq">
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                </a>
+
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+    <div class="music-player">
+        <div class="album">
+            <div class="album-pic">
+                <img src="	https://i.scdn.co/image/ab67656300005f1faa4830256e4b613f07287208">
+            </div>
+            <div class="album-info">
+                <a href="https://open.spotify.com/episode/6ELxWmL2sfg9RtxMlTPq6e?uid=f50929dbd1eaeace6650&uri=spotify%3Aepisode%3A6ELxWmL2sfg9RtxMlTPq6e" class="title">Science-Supported Tools <i class="fa-solid fa-plus album-icon"></i> </a>
+                <a href="https://open.spotify.com/show/79CkJF3UJTHFV8Dse3Oy0P" class="artist">Huberman Lab</a>
+            </div>
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="./assets/player_icon1.png" class="player-control-icon">
+                <img src="./assets/player_icon2.png" class="player-control-icon">
+                <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                <img src="./assets/player_icon4.png" class="player-control-icon">
+                <img src="./assets/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1" value="0">
+                <span class="tot-time">1:35:39</span>
+            </div>
+        </div>
+        <div class="control">
+            <img src="./assets/controls_icon1.png" class="vol-controls-icons resize">
+            <img src="./assets/controls_icon3.png" class="vol-controls-icons">
+            <img src="./assets/controls_icon4.png" class="vol-controls-icons">
+            <img src="./assets/controls_icon5.png" class="vol-controls-icons resize">
+            <input type="range" class="volume progress-bar" style="width: 8rem;" min="0" max="100" step="1" value="100">
+        </div>
+    </div>
+    </div>
+
+    
+
+</body>
+</html>

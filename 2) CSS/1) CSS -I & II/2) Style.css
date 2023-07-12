@@ -48,7 +48,7 @@ p + h3{
 
 /* Child Combinator */
 div > input {
-    background-color: darkgray;
+    background-color: pink;
 }
 
 /* Attribute Selector*/
@@ -105,7 +105,7 @@ p::selection{
 
 
 /* Selector Specificity */
-/* (!important) > Inline > ID > Class/ attribute/ psudo class > Element/ Pseudo Element */
+/* (!important) > Inline > ID > Class/ attribute/ pseudo class > Element/ Pseudo Element */
 /* If specificity is same then --> cascading */
 
 

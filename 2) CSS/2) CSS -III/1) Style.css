@@ -1,0 +1,42 @@
+/* BOX---> height,width,border,padding,margin */
+
+#div1{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: purple; */
+    border:2px dashed purple;
+} 
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+
+/* padding shorthand */
+
+/* padding: top right bottom left; */
+/* padding: 10px 20px 30px 40px; */
+
+/* padding: top & bottom || right & left; */
+/* padding: 10px 20px; */
+
+/* padding: top || right & left || bottom; */
+/* padding: 10px 20px 30px; */
+
+
