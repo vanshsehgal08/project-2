@@ -1,0 +1,34 @@
+//CONFIGURING Git
+
+//git config --global user.name "Your Name"
+//git config --global user.email "<EMAIL>"
+
+///////////////////////////////////////////////
+
+git config --list
+//to see the current configuration of git
+
+///////////////////////////////////////////////
+
+Clone command
+//git clone <URL>
+
+///////////////////////////////////////////////
+
+//git status
+//to see the current status of the git
+
+///////////////////////////////////////////////
+
+//git add <FILE_NAME>
+//to add the file to the staging area
+[git add .]
+//to add all the files to the staging area
+
+
+//git commit -m "some message"
+//to commit the changes
+
+
+//git push origin main
+//to push the local repository changes to the remote repository

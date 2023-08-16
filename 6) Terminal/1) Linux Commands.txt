@@ -1,0 +1,69 @@
+//BASICS
+
+ls: list files (show my files)
+pwd: print working directory
+clear: clear directory
+
+///////////////////////////////////////////
+
+// NAVIGATION
+cd: change directory
+cd ..: go up one directory (back button)
+cd ../..: go up two directories
+cd ~: go to home directory
+cd -: go to previous directory
+ls -a: list all files including hidden files
+ls -l: list all files in long format
+ls -t: list all files by time
+
+///////////////////////////////////////////
+
+//PATHS
+
+Absolute path: full path
+Example: 
+/Users/username/Desktop
+
+Relative path: relative to where you are currently
+Example:
+cd Desktop
+
+///////////////////////////////////////////
+
+//MAKING DIRECTORIES
+
+mkdir: make directory (FOLDER)
+mkdir -p: make parent directories as needed
+mkdir -p 2014/January
+
+///////////////////////////////////////////
+
+//FLAGS
+Flags are characters that we pass with commands to modify their behaviour
+
+ls -l: -l is a flag
+ls -a: -a is a flag (also displays files that start with .)
+ls --all: --all is also a flag
+
+MANUAL COMMAND
+man ls: give info about ls command
+
+///////////////////////////////////////////
+
+//TOUCH COMMAND
+
+touch: create a new file
+
+///////////////////////////////////////////
+
+//DELETING FILES AND FOLDERS
+
+rm: remove file
+rm -r: remove directory
+rm -rf: remove directory without confirmation
+
+rmdir: removes empty folders
+
+rm -rf: removes any folder
+r --> recursive
+f --> forced 
